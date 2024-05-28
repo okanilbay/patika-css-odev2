@@ -9,35 +9,44 @@
 </head>
 
 <body>
-    <img clas="logo" src="img/google.jpg" alt="Logo">
-    <div class="container">
-        <div class="search-box">
+    <div class="header">
+        <img clas="logo" src="img/google.jpg" alt="Logo">
+    </div>
+    
+    <div class="search-container bg-grey text-center">
+        <form>
+            <p>Search the web using Google!</p>
+            <input type="text" style="width: 280px;">
+            <br>
+            <button type="submit">Google Search</button>
+            <button type="button">I'm feeling lucky</button>
+        </form>
+    </div>
 
-            <p>Search the web using Google! </p>
-            <input type="text">
-            <button>Google Search</button>
-            <button>I'm feeling lucky</button>
+    <div class="container text-center">
+        <div class="card">
+            <p>Special Searches</p>
+            <p><a href="http://www.google.com/stanford">Stanford Search</a></p>
+            <p><a href="http://www.google.com/linux">Linux Search</a></p>
         </div>
         <div class="card">
-            Special Searches
-            <a href="http://www.google.com/stanford">Stanford Search</a>
-            <a href="http://www.google.com/linux">Linux Search</a>
+            <p><a href="help.html">Help!</a></p>
+            <p><a href="about.html">About Google!</a></p>
+            <p><a href="company.html">Company Info</a></p>
+            <p><a href="stickers.html">Google! Logos</a></p>
         </div>
+
         <div class="card">
-            <a href="help.html">Help!</a>
-            <a href="about.html">About Google!</a>
-            <a href="company.html">Company Info</a>
-            <a href="stickers.html">Google! Logos</a>
-        </div>
-        <div class="card">
-            Get Google!
-            updates monthly:
+            <p>Get Google!</p>
+            <p>updates monthly:</p>
             <input type="text" placeholder="your e-mail">
+            <br>
             <button>Subscribe</button>
             <a href="http://www.findmail.com/list/google-friends/">Archive</a>
         </div>
-    </div>
-    <footer>
+    </div>    
+    
+    <footer class="footer text-center">
         <p>Copyright ©1998 Google Inc.</p>
     </footer>
 
