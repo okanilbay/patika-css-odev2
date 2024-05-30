@@ -44,3 +44,13 @@ p {
     font-size: 14px;
     border-top: 1px solid #ddd;
 }
+.bg-card1
+{
+background-color: #7EE5DA;
+}
+.bg-card2{
+    background-color: #70CCC2;
+}
+.bg-card3{
+    background-color: #62B3AA;
+}
